@@ -1,0 +1,32 @@
+{
+    "name": "idfy/restclient",
+    "type": "library",
+    "description": "PHP client for Idfy's REST API",
+    "keywords": ["Idfy API Reference","API","SDK"],
+    "homepage": "https://idfy.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Idfy",
+            "email": "support@idfy.io",
+            "homepage": "https://idfy.io",
+            "role": "API Tool"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "mashape/unirest-php": "~3.0.1",
+        "apimatic/jsonmapper": "~1.3.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "IdfyLib\\": "src/"
+        }
+    }
+}
