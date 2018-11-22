@@ -1,0 +1,2 @@
+# Idfy-php-restclient
+Deprecated
